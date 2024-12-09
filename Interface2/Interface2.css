@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Inter', sans-serif;
+    background-color: #d4d4d4;
+}
+
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.banner {
+    display: flex;
+    position: relative;
+    width: 840px;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background: #2F80ED;
+    overflow: hidden;
+    background-image: url('../assets/imgs/bg-banner.png');
+    background-size: auto 100%;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.banner-info {
+    max-width: 60%;
+}
+
+.banner h1 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+.banner span {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.banner button {
+    display: inline-flex;
+    padding: 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 40px;
+    background: #202020;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 12px;
+}
