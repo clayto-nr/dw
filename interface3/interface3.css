@@ -7,7 +7,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     font-family: 'Inter', sans-serif;
     background-color: #d4d4d4;
 }
@@ -19,7 +20,7 @@ html, body {
     height: 100vh;
 }
 
-.card{
+.card {
     display: flex;
     width: 240px;
     padding: 12px;
@@ -40,26 +41,31 @@ html, body {
     flex: 1 0 0;
 }
 
-.info-card p{
-    color:  #2667BF;
+.info-card p {
+    color: #2667BF;
     font-size: 12px;
     font-weight: 700;
 }
 
-.info-card span{
-    color:  #202020;
+.info-card span {
+    color: #202020;
     font-size: 12px;
     font-weight: 600;
 }
 
-.card button{
+.card button.bell-icon {
     display: flex;
-    padding: 12px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    border-radius: 50px;
-    background: #2F80ED;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
     border: none;
+    cursor: pointer;
+    background-color: #2667BF;
 }
 
+.card button.bell-icon i.fa {
+    color: white;
+    font-size: 16px;
+}

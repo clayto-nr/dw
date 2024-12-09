@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Inter', sans-serif;
+    background-color: #d4d4d4;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.grupo-cards-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-disable{
+    color: #5F5F5F !important;
+}
+
+.card-disable {
+    color: #5F5F5F;
+    pointer-events: none; /* Desativa o clique */
+    opacity: 0.6;
+}
