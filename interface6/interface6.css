@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Inter', sans-serif;
+    background-color: #d4d4d4;
+}
+
+.container-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.grupo-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 24px;
+}
+
+.nav-info{
+    padding-bottom: 24px;
+}
+
+
+.card-2-1 .display-img {
+    background-image: url('../assets/imgs/info-img.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-2-2 .display-img {
+    background-image: url('../assets/imgs/card-2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-2-3 .display-img {
+    background-image: url('../assets/imgs/card-3.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.gp-buttons-info{
+    display: flex;
+    gap: 16px;
+}
+
+
+.button-arrow {
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid  #9E9E9E;
+}
+
+.button-direita{
+    transform: rotate(-180deg);
+}

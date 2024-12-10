@@ -20,8 +20,9 @@ html, body {
 }
 
 .grupo-cards-1{
-    width: 100%;
+    max-width: 100%;
     display: flex;
+    gap: 24px;
     justify-content: space-between;
 }
 

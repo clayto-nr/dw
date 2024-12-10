@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +17,8 @@ html, body {
     align-items: center;
     height: 100vh;
 }
-.card-2 h3{
+
+.card-2 h3 {
     color:  #202020;
     font-size: 14px;
     font-weight: 500;
@@ -36,11 +36,7 @@ html, body {
     background:  #FFF;
     box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
 }
-.card-2 img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
+
 .card-2 .tag {
     display: flex;
     height: 15px;
@@ -55,6 +51,7 @@ html, body {
     font-weight: 400;
     text-transform: uppercase;
 }
+
 .card-2 progress {
     width: 100%;
     height: 16px;
@@ -63,9 +60,10 @@ html, body {
 .display-img {
     position: relative;
     width: 100%;
-}
-
-.display-img img {
+    height: 148px;
+    background-image: url('../assets/imgs/info-img.png');
+    background-size: cover;
+    background-position: center;
     border-radius: 8px;
 }
 
@@ -84,13 +82,16 @@ html, body {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     padding: 0;
-}
-
-.heart-btn img {
-    width: 16px;
-    height: 16px;
+    background-image: url('../assets/imgs/heart.svg');
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .heart-btn:hover {
     background-color: #cccccca4;
+}
+
+.heart-btn img {
+    display: none;
 }

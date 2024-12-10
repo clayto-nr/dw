@@ -20,11 +20,10 @@ html, body {
     height: 100vh;
 }
 
-
 .banner {
     display: flex;
     position: relative;
-    width: 840px;
+    min-width: 100%;
     padding: 16px;
     justify-content: space-between;
     align-items: center;
@@ -49,7 +48,7 @@ html, body {
 }
 
 .banner span {
-    color: #fff;
+    color: #fff !important;
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
