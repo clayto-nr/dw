@@ -72,11 +72,11 @@ th, td {
 }
 
 .game {
-    display: inline-flex; /* Muda para inline-flex */
+    display: inline-flex; /* MUDA para inline-flex */
     gap: 8px;
     align-items: center;
     text-align: left;
-    width: auto; /* Ajusta a largura para o conteúdo */
+    width: auto; /* AJUSTA!!! a largura para o conteúdo */
 }
 
 .game p {
