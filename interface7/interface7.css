@@ -9,7 +9,6 @@
 
 html, body {
     font-family: 'Inter', sans-serif;
-    background-color: #d4d4d4;
 }
 
 /* Flexbox utilities */
@@ -51,10 +50,11 @@ a.link {
 
 /* Tabela de Jogos */
 .games-table {
-    width: 40%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 16px;
+
 }
 
 table {

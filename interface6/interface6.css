@@ -9,7 +9,6 @@
 
 html, body {
     font-family: 'Inter', sans-serif;
-    background-color: #d4d4d4;
 }
 
 .container-info {
@@ -24,13 +23,12 @@ html, body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    row-gap: 24px;
+    gap: 24px;
 }
 
 .nav-info{
     padding-bottom: 24px;
 }
-
 
 .card-2-1 .display-img {
     background-image: url('../assets/imgs/info-img.png');
@@ -55,7 +53,6 @@ html, body {
     gap: 16px;
 }
 
-
 .button-arrow {
     width: 24px;
     height: 24px;
@@ -63,6 +60,10 @@ html, body {
     border-radius: 50px;
     background-color: transparent;
     border: 1px solid  #9E9E9E;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 .button-direita{
