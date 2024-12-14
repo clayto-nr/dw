@@ -12,7 +12,6 @@ html, body {
 }
 
 .container {
-
     display: flex;
     justify-content: space-between;
     min-height: 100vh; 
@@ -26,7 +25,7 @@ html, body {
 
 .conteudo{
     width: 55%;
-    padding: 48px;
+    padding-top: 48px;
     gap: 24px;
     display: flex;
     flex-direction: column;
