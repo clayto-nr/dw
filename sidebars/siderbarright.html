@@ -1,14 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SIDEBAR</title>
+    <link rel="stylesheet" href="siderbarright.css">
 </head>
 <body>
-    <div class="top-right">
-        <h5>Perfil</h5>
-        <img src="../assets/icons/more.svg" alt="">
-    </div>
+    <aside class="sidebar-right" aria-label="Painel lateral">
+        <header class="top-right" aria-label="Cabeçalho do painel">
+            <h3>Perfil</h3>
+                <img src="../assets/icons/more.svg" alt="ícone de mais opções">
+        </header>
+
+        <section class="profile" aria-label="Informações do perfil">
+            <div class="profile-header">
+                <div class="profile-img">
+                    <img src="../assets/imgs/lobo.png" alt="Foto do perfil do Lobo Cibernético">
+                </div>
+                <div class="profile-info">
+                    <h4>Olá, Lobo Cibernético</h4>
+                    <p>A alcateia está animada e os lobos estão com tudo.</p>
+                </div>
+            </div>
+
+            <div class="icons-profile" aria-label="Ações do perfil">
+                <button class="icon-profile" aria-label="Notificações">
+                    <img src="../assets/icons/bell.svg" alt="ícone de notificações">
+                </button>
+
+                <button class="icon-profile" aria-label="Mensagens">
+                    <img src="../assets/icons/mensagem.svg" alt="ícone de mensagens">
+                </button>
+
+                <button class="icon-profile" aria-label="Configurações de perfil">
+                    <img src="../assets/icons/provi.svg" alt="ícone de configurações de perfil">
+                </button>
+            </div>
+        </section>
+
+        <section class="parciais">
+            <img src="../assets/imgs/graph.svg" alt="">
+            <h3>Parciais por dia</h3>
+        </section>
+
+        <section class="agenda">
+            <header class="top-right" aria-label="Cabeçalho do painel">
+                <h3>Agenda de Infoweb</h3>
+                <button class="icon-profile" aria-label="Mensagens">
+                    <img src="../assets/imgs/calendar.svg" alt="ícone de mensagens">
+                </button>
+            </header>
+
+            <div class="gp-seguir">
+                <div class="seguir">
+
+                    <div class="gp-seguir-initial">
+                        <img src="../assets/imgs/img-jogo.png" alt="">
+                    <div class="seguir-texts">
+                        <h3>Futebol Feminino</h3>
+                        <p>Ginásio | 10:00</p>
+                    </div>
+                    </div>
+                    
+                    <button class="btn-seguir">Seguir</button>
+                </div>
+
+                <hr>
+
+                <div class="seguir">
+                    <div class="gp-seguir-initial">
+                        <img src="../assets/imgs/img-jogo.png" alt="">
+                    <div class="seguir-texts">
+                        <h3>Futsal masculino</h3>
+                        <p>Ginásio | 12:00</p>
+                    </div>
+                    </div>
+
+                    <button class="btn-seguir">Seguir</button>
+                </div>
+
+                <hr>
+
+                <div class="seguir">
+
+                    <div class="gp-seguir-initial">
+                        <img src="../assets/imgs/img-jogo.png" alt="">
+                        <div class="seguir-texts">
+                            <h3>Natação</h3>
+                            <p>Piscina | 12:00</p>
+                        </div>
+                    </div>
+                    
+
+                    <button class="btn-seguir">Seguir</button>
+                </div>
+
+                <hr>
+
+                <div class="seguir">
+                    <div class="gp-seguir-initial">
+                        <img src="../assets/imgs/img-jogo.png" alt="">
+                        <div class="seguir-texts">
+                            <h3>Vôlei de praia - Fem</h3>
+                            <p>Quadra de Areia | 08:00</p>
+                        </div>
+                    </div>
+
+                    <button class="btn-seguir">Seguir</button>
+                </div>
+
+                <buttom class="vertudo">
+                    Ver tudo
+                </buttom>
+            </div>
+        </section>
+    </aside>
 </body>
 </html>

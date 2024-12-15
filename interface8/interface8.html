@@ -6,7 +6,6 @@
     <title>Interface 8</title>
     <link rel="stylesheet" href="interface8.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <link rel="stylesheet" href="../Interface1/Interface1.css">
     <link rel="stylesheet" href="../Interface2/Interface2.css">
     <link rel="stylesheet" href="../interface3/interface3.css">
@@ -15,6 +14,7 @@
     <link rel="stylesheet" href="../interface6/interface6.css">
     <link rel="stylesheet" href="../interface7/interface7.css">
     <link rel="stylesheet" href="../sidebars/sidebarleft.css">
+    <link rel="stylesheet" href="../sidebars/siderbarright.css">
 </head>
 <body>
     <div class="container">
@@ -276,8 +276,113 @@
             </section>
         </main>
 
-        <aside class="direita sidebar">
-            <section>
+        <aside class="sidebar-right" aria-label="Painel lateral">
+            <header class="top-right" aria-label="Cabeçalho do painel">
+                <h3>Perfil</h3>
+                    <img src="../assets/icons/more.svg" alt="ícone de mais opções">
+            </header>
+    
+            <section class="profile" aria-label="Informações do perfil">
+                <div class="profile-header">
+                    <div class="profile-img">
+                        <img src="../assets/imgs/lobo.png" alt="Foto do perfil do Lobo Cibernético">
+                    </div>
+                    <div class="profile-info">
+                        <h4>Olá, Lobo Cibernético</h4>
+                        <p>A alcateia está animada e os lobos estão com tudo.</p>
+                    </div>
+                </div>
+    
+                <div class="icons-profile" aria-label="Ações do perfil">
+                    <button class="icon-profile" aria-label="Notificações">
+                        <img src="../assets/icons/bell.svg" alt="ícone de notificações">
+                    </button>
+    
+                    <button class="icon-profile" aria-label="Mensagens">
+                        <img src="../assets/icons/mensagem.svg" alt="ícone de mensagens">
+                    </button>
+    
+                    <button class="icon-profile" aria-label="Configurações de perfil">
+                        <img src="../assets/icons/provi.svg" alt="ícone de configurações de perfil">
+                    </button>
+                </div>
+            </section>
+    
+            <section class="parciais">
+                <img src="../assets/imgs/graph.svg" alt="">
+                <h3>Parciais por dia</h3>
+            </section>
+    
+            <section class="agenda">
+                <header class="top-right" aria-label="Cabeçalho do painel">
+                    <h3>Agenda de Infoweb</h3>
+                    <button class="icon-profile" aria-label="Mensagens">
+                        <img src="../assets/imgs/calendar.svg" alt="ícone de mensagens">
+                    </button>
+                </header>
+    
+                <div class="gp-seguir">
+                    <div class="seguir">
+    
+                        <div class="gp-seguir-initial">
+                            <img src="../assets/imgs/img-jogo.png" alt="">
+                        <div class="seguir-texts">
+                            <h3>Futebol Feminino</h3>
+                            <p>Ginásio | 10:00</p>
+                        </div>
+                        </div>
+                        
+                        <button class="btn-seguir">Seguir</button>
+                    </div>
+    
+                    <hr>
+    
+                    <div class="seguir">
+                        <div class="gp-seguir-initial">
+                            <img src="../assets/imgs/img-jogo.png" alt="">
+                        <div class="seguir-texts">
+                            <h3>Futsal masculino</h3>
+                            <p>Ginásio | 12:00</p>
+                        </div>
+                        </div>
+    
+                        <button class="btn-seguir">Seguir</button>
+                    </div>
+    
+                    <hr>
+    
+                    <div class="seguir">
+    
+                        <div class="gp-seguir-initial">
+                            <img src="../assets/imgs/img-jogo.png" alt="">
+                            <div class="seguir-texts">
+                                <h3>Natação</h3>
+                                <p>Piscina | 12:00</p>
+                            </div>
+                        </div>
+                        
+    
+                        <button class="btn-seguir">Seguir</button>
+                    </div>
+    
+                    <hr>
+    
+                    <div class="seguir">
+                        <div class="gp-seguir-initial">
+                            <img src="../assets/imgs/img-jogo.png" alt="">
+                            <div class="seguir-texts">
+                                <h3>Vôlei de praia - Fem</h3>
+                                <p>Quadra de Areia | 08:00</p>
+                            </div>
+                        </div>
+    
+                        <button class="btn-seguir">Seguir</button>
+                    </div>
+    
+                    <buttom class="vertudo">
+                        Ver tudo
+                    </buttom>
+                </div>
             </section>
         </aside>
     </div>
